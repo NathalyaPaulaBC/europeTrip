@@ -1,0 +1,8 @@
+.toolbar-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: var(--color-margin-component) 1px solid;
+    z-index: 999;
+}

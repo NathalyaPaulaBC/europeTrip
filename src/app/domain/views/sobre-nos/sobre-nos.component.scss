@@ -1,0 +1,36 @@
+/************ SOBRE NÓS **********/
+
+#aboutStart .aboutStart {
+  width: 50%;
+  // transform: rotate(-10deg);
+}
+
+#aboutStart .aboutGm {
+  width: 30%;
+  // transform: rotate(5deg);
+}
+
+#aboutStart .aboutSofhie {
+  width: 30%;
+  // transform: rotate(10deg);
+}
+
+#aboutStart .aboutBoo {
+  width: 30%;
+  // transform: rotate(-5deg);
+}
+
+#aboutStart .column-image {
+  float: right;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+#aboutStart .column-text {
+  float: left;
+  width: 50%;
+  padding: 30px 15px 15px;
+}

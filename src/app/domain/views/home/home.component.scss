@@ -1,0 +1,23 @@
+.home-menu-card{
+    text-align: center;
+    text-decoration: none;
+
+    img{
+        margin: auto;
+    }
+
+    span{
+        color: #1e1e1e;
+        font-family: Oswald,sans-serif;
+        letter-spacing: -.02em;
+        font-weight: 700;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+    :hover {
+        color: #59815b;
+    }
+}

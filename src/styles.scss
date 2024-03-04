@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body{
+    margin: 0;
+}
+
+:root {
+    --color-margin-component : #c7c7c7;
+}
+
+.font-detail{
+    font-size: 12px;
+}
+
+.img-round{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: var(--color-margin-component) 1px solid;
+    margin: 0 5px;
+}

@@ -1,0 +1,16 @@
+<ul class="navbar-nav d-flex flex-column">
+    <li *ngFor="let item of menu" [ngClass]="item.childrens != null ? 'nav-item dropdown' : 'nav-item'">
+        <a *ngIf="item.path" href="{{item.path}}" class="nav-link text-dark">{{item.title}}</a>
+
+        <a *ngIf="item.childrens" class="nav-link
+            dropdown-toggle" [id]="item.path" role="button" data-toggle="dropdown" aria-expanded="false">
+            {{item.title}}
+        </a>
+
+        <ul *ngIf="item.childrens" class="dropdown-menu" [aria-labelledby]="item.path">
+            <li *ngFor="let subitem of item.childrens">
+                <a href="subitem.path" class="dropdown-item text-dark ">{{item.title}}</a>
+            </li>
+        </ul>
+    </li>
+</ul>
